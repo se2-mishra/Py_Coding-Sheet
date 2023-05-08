@@ -1,0 +1,7 @@
+obj=open("F:\\File\\New.txt","r")
+s1 = obj.readline()
+s2 = obj.readline()
+s3 = obj.readline()
+s4 = obj.read(15)
+print(s4)
+obj.close()
